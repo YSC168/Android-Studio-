@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <include layout="@layout/title" />
+
+    </LinearLayout>
+    <TextView
+       android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是用include实现"/>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Android浏览器" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转手机浏览器"
+        android:id="@+id/tzsj"/>
+</LinearLayout>
+
+
+    <com.webview.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.webview.TitleLayout>
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是用com.webview.TitleLayout实现"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/rec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="recycler" />
+
+        <Button
+            android:id="@+id/toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toast" />
+
+        <Button
+            android:id="@+id/cardview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cardview" />
+
+        <Button
+            android:id="@+id/javat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JAVA" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RecyclerLayout" />
+
+        <Button
+            android:id="@+id/network"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="网络监听" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送广播" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/file_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="文件存储" />
+
+        <Button
+            android:id="@+id/sharepre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="share preferences"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/sql_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SQL" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="记住密码" />
+    <Button
+        android:id="@+id/lite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LitePal"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/qxsq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="权限申请"
+        android:textAllCaps="false"/>
+    </LinearLayout>
+</LinearLayout>
